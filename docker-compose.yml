@@ -1,0 +1,7 @@
+version: '3.0'
+services:
+  rabbit:
+    image: rabbitmq:3
+    container_name: fitz-rabbit
+    ports:
+      - 5672:5672
